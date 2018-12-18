@@ -1,6 +1,6 @@
 # Fichador
 Desarrollo desde cero de la aplicación en C# para permitir fichar a usuarios de una empresa. Implementación con librerías de Telerik y SQL SERVER.
-Esta aplicación no se puede compilar en local a no ser que se tenga librerias telerik (de pago) porque no utiliza propios controles de WinForms y cambia en cuanto a código y lógica de organización.
+Esta aplicación no se puede compilar en local a no ser que se tenga librerias telerik (de pago) porque no utiliza propios controles de WinForms y cambia en cuanto a código y lógica de organización y además están descargados nuggets especificos de la empresa que se conectaba a un servidor TFS y descargaba los comunes a todas las soluciones (esto se podría sustituir pero llevaría bastante tiempo).
 Se estructura en 3 capas: ControlHoras (interfaz), ControlHoras.DAL (acceso a los datos), ControlHoras.Models (modelos base de datos)
 Para hacerlo funcionar hay que importar los .sql y descargar fuentes de Telerik.
 De todas formas es un proyecto que en su día iba vinculado a un servidor TFS y tiene bastantes problemas para compilarlo. 
